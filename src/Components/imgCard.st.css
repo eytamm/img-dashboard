@@ -1,0 +1,54 @@
+.image-card {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-card a {
+    text-decoration: none;
+    color: rgb(94, 137, 177);
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+}
+.image-card a:active,
+.image-card a:hover {
+    color: rgb(41, 80, 116);;
+
+}
+
+.image-card-image {
+    margin: 30px 30px;
+    border-radius: 5%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(3, 44, 85, 0.8);
+    width: 200px;
+    height: 140px;
+    object-fit: cover;
+    transition: all .4s ease-in-out;
+    z-index: 998;
+}
+
+.image-card-image:hover {
+    transform: scale(3);
+    z-index: 999;
+}
+
+.image-date {
+    color: #50a3db;
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+.green {
+    color: green;
+    font-size: 40px;
+    border-color: green;
+}
+
+.red {
+    color: red;
+    font-size: 40px;
+}

@@ -1,0 +1,18 @@
+.card {
+    width: 80%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 25px auto;
+    background-color: #708492;
+}
+
+.title{
+    font-family: "Helvetica Neue";
+    font-size: 30px;
+    color: rgba(60, 103, 144, 1);
+    word-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 300;
+}

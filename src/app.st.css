@@ -1,0 +1,23 @@
+.root {}
+
+main {
+    align-content: center;
+    margin: 0 auto;
+
+}
+:global(html) {
+    background-color: rgb(246, 246, 246);
+
+}
+
+.header {
+    -st-extends: Header;
+    margin-top: 10em;
+    text-align: center;
+}
+
+/* ---------- MY CSS ---------- */
+
+
+
+
