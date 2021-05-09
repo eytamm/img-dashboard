@@ -1,5 +1,5 @@
 import { Card } from 'wix-style-react';
-import {st ,classes} from './Header.st.css';
+import {st ,classes} from './header.st.css';
 
 const Header = function() {
 

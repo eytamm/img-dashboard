@@ -1,5 +1,5 @@
 import { Card } from 'wix-style-react';
-import { classes, st } from './Titles.st.css';
+import { classes, st } from './titles.st.css';
 
 type title_props = {
   title : string

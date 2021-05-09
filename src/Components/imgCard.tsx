@@ -51,23 +51,3 @@ const ImgCard = function(props : img_props)
 
 export default ImgCard;
 
-
-// <Card className={st(classes['image-card'])}>
-//   <img
-//     src='https://images.unsplash.com/photo-1619911087942-74c21c86dedf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80'
-//     className={st(classes['image-card-image'])} />
-//   <span> www.wix.com </span>
-//   <span>{new Date().toLocaleDateString('en-US')}</span>
-//   <span className={st(classes[signColor])} onClick={checkHandler}>
-//         {
-//           checked ?
-//             <IconButton priority='secondary' size='large'>
-//               <Check className={st(classes[signColor])} />
-//             </IconButton>
-//             :
-//             <IconButton priority='secondary' size='large'>
-//               <X className={st(classes[signColor])} />
-//             </IconButton>
-//         }
-//       </span>
-// </Card>

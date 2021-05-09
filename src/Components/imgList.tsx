@@ -1,19 +1,20 @@
-import ImgCard from './ImgCard';
-import './ImgList.st.css';
+import ImgCard from './imgCard';
+import './imgList.st.css';
+import type { ImageObj } from '../Data/fetchApi';
 
-type lst_props = {
-  array: any[];
+type ImgListProps = {
+  images: ImageObj[];
   setChecked(imageId: string, isChecked: boolean): void;
   flag: boolean;
 }
 
-const ImgList = function(props: lst_props) {
+const ImgList = function(props: ImgListProps) {
 
-  const this_arr = props.array.filter((image) => image.checked === props.flag);
+  const filteredImages = props.images.filter((image) => image.checked === props.flag);
 
   return (
     <ul>
-      {this_arr.map((image) => {
+      {filteredImages.map((image) => {
         return (
           <li key={image.thumbnail}>
             <ImgCard
